@@ -1,0 +1,9 @@
+{
+  "task": "Evaluate vulnerability classification.",
+  "criteria": [
+    "Correct mapping to vuln classes",
+    "Clear rationale",
+    "No overclaiming",
+    "High signal-to-noise"
+  ]
+}

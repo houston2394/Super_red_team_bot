@@ -1,0 +1,9 @@
+{
+  "task": "Evaluate secure coding review.",
+  "criteria": [
+    "OWASP alignment",
+    "Actionable findings",
+    "Correct severity ranking",
+    "No false positives"
+  ]
+}

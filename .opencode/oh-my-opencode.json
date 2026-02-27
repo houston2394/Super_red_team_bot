@@ -1,0 +1,26 @@
+{
+  "providers": {
+    "anthropic": { "model": "claude-3.7-sonnet" },
+    "openai": { "model": "gpt-4.5" },
+    "google": { "model": "gemini-2.0-pro" }
+  },
+  "agents": {
+    "recon-analyzer": { "entry": "./agents/recon-analyzer.ts" },
+    "vuln-classifier": { "entry": "./agents/vuln-classifier.ts" },
+    "exploit-sketcher": { "entry": "./agents/exploit-sketcher.ts" },
+    "threat-modeler": { "entry": "./agents/threat-modeler.ts" },
+    "secure-reviewer": { "entry": "./agents/secure-reviewer.ts" }
+  },
+  "hooks": {
+    "beforeToolCall": [
+      "./hooks/network-guard.ts",
+      "./hooks/secret-scrubber.ts"
+    ],
+    "afterToolCall": [
+      "./hooks/write-audit.ts"
+    ]
+  },
+  "background": {
+    "maxConcurrent": 3
+  }
+}

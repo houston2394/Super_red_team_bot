@@ -1,0 +1,6 @@
+[
+	{ "param": "id", "location": "query" },
+	{ "param": "token", "location": "header" },
+	{ "param": "admin_id", "location": "body" },
+	{ "param": "session", "location": "cookie" }
+]

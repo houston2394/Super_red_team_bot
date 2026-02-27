@@ -1,0 +1,24 @@
+# .gitignore for Super_red_team_bot
+
+# Ignore sensitive or large recon data
+recon/Burp logs/
+recon/Screenshots/
+recon/responses/
+
+# Ignore config files with secrets
+config/*.secret
+
+# Ignore test outputs
+*.log
+*.tmp
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Node modules (if any JS plugins)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db

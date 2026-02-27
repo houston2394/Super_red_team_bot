@@ -1,0 +1,16 @@
+{
+  "name": "oh-my-opencode-security-bundle",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
+  },
+  "postCreateCommand": "curl -fsSL https://opencode.ai/install | bash && npm install -g oh-my-opencode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "github.copilot"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "task": "Evaluate recon clustering accuracy.",
+  "criteria": [
+    "Correct grouping by auth level",
+    "Correct grouping by sensitivity",
+    "Correct grouping by parameter type",
+    "Low hallucination rate"
+  ]
+}

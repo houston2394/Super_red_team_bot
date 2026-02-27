@@ -1,0 +1,14 @@
+[
+	{
+		"url": "https://example.com/api/v1/user",
+		"method": "GET",
+		"auth_required": true,
+		"parameters": ["id", "token"]
+	},
+	{
+		"url": "https://example.com/api/v1/admin",
+		"method": "POST",
+		"auth_required": true,
+		"parameters": ["admin_id", "session"]
+	}
+]
