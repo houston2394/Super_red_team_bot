@@ -1,0 +1,18 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+urllib3>=2.0.0
+
+# Configuration
+configparser>=6.0.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Security scanning
+safety>=2.3.0
+
+# Utilities
+colorama>=0.4.6
